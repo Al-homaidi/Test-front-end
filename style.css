@@ -15,7 +15,7 @@ body{
     margin-right: auto;
     min-height: 97px;
 }
-@media (min-width: 768px){
+/* @media (min-width: 768px){
     .container{
         width: 750px;
     }
@@ -29,7 +29,7 @@ body{
     .container{
         width: 1200px;
     }
-}
+} */
 .main{
     color: #FFFFFF;
     background-color: #94D4FF;
@@ -107,10 +107,7 @@ body{
     background-color: #0099FF;
     color: white;
     font-weight: bold;
-    padding: 0px 25px 0px 25px;
     cursor: pointer;
-    width: 143px;
-    height: 56px;
     border-radius: 53px;
     font-size: 16px;
 }
@@ -123,7 +120,7 @@ body{
     max-width: 100%;
 }
 .box-2 {
-    height: 187px;
+    
 }
 .box-2 .photo-under img {
     width: 100%;
@@ -165,69 +162,60 @@ body{
     font-weight: normal;
 }
 @media (max-width: 768px){
+    .box-1 .sectionone {
+        justify-content: center;
+        padding: 0px;
+    }
+    .sectionone .logo img {
+        width: 200px;
+    }
     .sectiontow {
         display: flex;
         flex-direction: column-reverse;
-        padding: 0px 59px;
+    }
+    .sectiontow .text h1 {
+        text-align: center;
+        font-size: 50px;
+        margin-top: -104px;
+        margin-bottom: -10px;
+    }
+    .sectiontow .text p {
+        text-align: center;
+        font-size: 19px;
+        line-height: 30px;
     }
     .research form {
-        margin-left: -27px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        height: 60px;
     }
-    .main {
-        width: 768px;
-        height: 1700px;
+    .research form input::placeholder {
+        font-size: 16px;
     }
-    .box-1 .sectionone {
-        justify-content: center;
+    .form input {
+        padding: 20px 0px 20px 20px;
+    }
+    .form {
+        gap: 0px;
+    }
+    .form button {
+        padding: 10px;
+        font-weight: normal;
+    }
+    .sectiontow .van img {
+        max-width: 90%;
     }
     .van {
         display: flex;
         justify-content: center;
     }
-    .sectiontow .van img { 
-        width: 669px;
-    }
-    .sectiontow .text h1 {
-        text-align: center;
-        margin-top: -80px;
-        font-size: 93px;
-        margin-bottom: 20px;
-    }
-    .sectiontow .text p {
-        text-align: center;
-        font-size: 30px;
-        color: #0F0D0F;
+    .box-2 .photo-under img {
+        width: 1000px;
+        left: -604px;
+        margin-top: 20px;
     }
     .text-under ul {
         flex-direction: column;
-        gap: 40px;
-    }
-    .research form {
-        font-size: 100px;
-        align-items: center;
-        height: 100px;
-    }
-    .form input {
-        font-size: 29px;
-    }
-    .form button {
-        height: 70px;
-    }
-    .box-2 .photo-under img {
-        transform: scale(4.5);
-        left: -434px;
-        position: relative;
-        width: 413px;
-    }
-    .box-2 {
-        margin-top: 85px;
-    }
-    .text-under {
-        margin-top: 60px;
     }
     .text-under ul li {
-        font-size: 40px;
+        font-size: 24px;
     }
 }
