@@ -75,7 +75,6 @@ body{
     color: #0F0D0F;
 }
 .research form {
-    width: 681px;
     height: 76px;
     padding: 10px 12px 10px 30px;
     background-color: #FFFFFF ;
@@ -88,6 +87,9 @@ body{
     border-radius: 50px;
     display: flex;
     gap: 20px;
+}
+.form input::placeholder {
+    color: #919191;
 }
 .form input {
     padding: 20px;
@@ -112,10 +114,12 @@ body{
     font-size: 20px;
 }
 .sectiontow {
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 48%;
+    gap: 2%;
 }
 .sectiontow .van img{
-    width: 550px;
+    max-width: 100%;
 }
 .box-2 {
     height: 187px;
@@ -159,6 +163,7 @@ body{
 }
 @media (max-width: 768px){
     .sectiontow {
+        display: flex;
         flex-direction: column-reverse;
         padding: 0px 59px;
     }
@@ -194,6 +199,7 @@ body{
     }
     .text-under ul {
         flex-direction: column;
+        gap: 40px;
     }
     .research form {
         font-size: 100px;
