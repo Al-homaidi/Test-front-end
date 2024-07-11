@@ -127,6 +127,8 @@ body{
 }
 .box-2 .photo-under img {
     width: 100%;
+    left: -40px;
+    position: relative;
 }
 .text-under {
     display: flex;
