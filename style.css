@@ -110,6 +110,7 @@ body{
     cursor: pointer;
     border-radius: 53px;
     font-size: 16px;
+    padding: 10px;
 }
 .sectiontow {
     display: grid;
@@ -164,58 +165,5 @@ body{
 @media (max-width: 768px){
     .box-1 .sectionone {
         justify-content: center;
-        padding: 0px;
-    }
-    .sectionone .logo img {
-        width: 200px;
-    }
-    .sectiontow {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .sectiontow .text h1 {
-        text-align: center;
-        font-size: 50px;
-        margin-top: -104px;
-        margin-bottom: -10px;
-    }
-    .sectiontow .text p {
-        text-align: center;
-        font-size: 19px;
-        line-height: 30px;
-    }
-    .research form {
-        height: 60px;
-    }
-    .research form input::placeholder {
-        font-size: 16px;
-    }
-    .form input {
-        padding: 20px 0px 20px 20px;
-    }
-    .form {
-        gap: 0px;
-    }
-    .form button {
-        padding: 10px;
-        font-weight: normal;
-    }
-    .sectiontow .van img {
-        max-width: 90%;
-    }
-    .van {
-        display: flex;
-        justify-content: center;
-    }
-    .box-2 .photo-under img {
-        width: 1000px;
-        left: -604px;
-        margin-top: 20px;
-    }
-    .text-under ul {
-        flex-direction: column;
-    }
-    .text-under ul li {
-        font-size: 24px;
     }
 }
