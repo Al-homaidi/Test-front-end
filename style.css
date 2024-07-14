@@ -27,11 +27,11 @@ body {
     .container{
         width: 1200px;
     }
-}
+}  
 .main {
   color: #ffffff;
   background-color: #94d4ff;
-  background: linear-gradient(to top, #94d4ff 0%, #ffffff 80%);
+  background: linear-gradient(120deg, #94d4ff 0%, #ffffff 40%, red 100%);
 }
 .box-1 {
   display: flex;
