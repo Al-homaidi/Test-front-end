@@ -31,7 +31,7 @@ body {
 .main {
   color: #ffffff;
   background-color: #94d4ff;
-  background: linear-gradient(120deg, #94d4ff 0%, #ffffff 40%, red 100%);
+  background: linear-gradient(180deg, rgba(148, 212, 255, 0), rgba(148, 212, 255, .8)), #fff;
 }
 .box-1 {
   display: flex;
